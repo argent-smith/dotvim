@@ -14,11 +14,11 @@ set et
 
 filetype off
 call pathogen#helptags()
-call pathogen#runtime_append_all_bundles()
+call pathogen#incubate()
 
 "set background=dark
 "colorscheme solarized
-colorscheme vividchalk
+"colorscheme railscasts
 
 set ignorecase
 syntax on
@@ -101,7 +101,7 @@ nmap <F3> :TlistToggle <CR>
 
 set tw=78
 
-set list listchars=tab:▸·,trail:·,eol:¬
+"set list listchars=tab:▸·,trail:·,eol:¬
 highlight SpecialKey guifg=#333333 ctermfg=DarkGray
 
 "language C
