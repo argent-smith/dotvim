@@ -19,6 +19,8 @@ call pathogen#incubate()
 "set background=dark
 "colorscheme solarized
 "colorscheme railscasts
+"colorscheme vividchalk
+colors hybrid
 
 set ignorecase
 syntax on
