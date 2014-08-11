@@ -14,7 +14,7 @@ set et
 
 filetype off
 call pathogen#helptags()
-call pathogen#incubate()
+call pathogen#infect('bundle/{}')
 
 "set background=dark
 "colorscheme solarized
