@@ -14,7 +14,7 @@ set et
 
 filetype off
 call pathogen#helptags()
-call pathogen#infect('bundle/{}')
+call pathogen#infect()
 
 "set background=dark
 "colorscheme solarized
@@ -200,3 +200,6 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
+" js
+let javascript_enable_domhtmlcss = 1
+let g:jsx_pragma_required = 0
