@@ -203,3 +203,17 @@ set statusline+=%*
 " js
 let javascript_enable_domhtmlcss = 1
 let g:jsx_pragma_required = 0
+
+" tagbar
+nmap <leader>= :TagbarToggle<CR>
+let g:tagbar_autofocus = 1
+
+" ghc-mod
+" Reload
+map <silent> tu :call GHC_BrowseAll()<CR>
+" Type Lookup
+map <silent> tw :call GHC_ShowType(1)<CR>
+
+" vim-slime
+let g:slime_target = "tmux"
+let g:slime_paste_file = tempname()
